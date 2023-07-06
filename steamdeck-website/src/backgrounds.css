@@ -1,0 +1,39 @@
+.top-content {
+    background-image: url('./deck-img-vid/software_hero_no_bg.png'), url('./deck-img-vid/software_hero_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height: 34rem;
+  }
+
+  .feature-stardew {
+    background-image: url('./deck-img-vid/software_playing_stardew.jpeg');
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+  }
+
+  .feature-baldurs-gate {
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+  
+    overflow: hidden;
+  }
+
+  .feature-ni-no-kuni {
+    background-color: var(--color-black);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+  
+    overflow: hidden;
+  }
+

@@ -1,0 +1,32 @@
+nav {
+    background-color: var(--color-black);
+    color: white;
+    padding-block: 13px;
+    padding-inline: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+
+    position: sticky;
+    top: 0;
+}
+
+.nav-items {
+    display: flex;
+    gap: 1.2rem;
+    /* margin-right: 4rem; */
+    /* margin-right: 1.5rem; */
+}
+
+.logo-circle {
+    fill: #1A9FFF;
+    animation: color-animation 48s ease infinite;
+}
+
+.logo-title {
+    font-size: 1.2rem;
+}
+
+
+

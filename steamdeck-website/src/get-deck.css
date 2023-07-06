@@ -1,0 +1,40 @@
+.animated-background {
+    animation: color-animation 48s ease infinite;
+}
+
+.buy-steamdeck {
+    padding-inline: 5rem;
+    padding-block: 6rem;
+}
+
+.inline-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: .8rem;
+}
+
+.buy-steamdeck p {
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.buy-steamdeck button {
+    background-color: black;
+    color: white;
+    padding: 14px 68px;
+    border-style: none;
+    border-radius: 32px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+
+    font-size: 1.1rem;
+    font-weight: 600;
+}

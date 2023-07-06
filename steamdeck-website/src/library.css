@@ -1,0 +1,22 @@
+.steam-library-section {
+  display: flex;
+  justify-content: center;
+  padding: 5rem;
+}
+
+/* .steam-library-section {
+    display: flex;
+  } */
+  
+  .steam-library-section img {
+    width: 52rem;
+    height: auto;
+  }
+
+  .text-container h1 {
+    margin-bottom: 1.5rem;
+  }
+
+  .text-container p {
+    width: 24rem;
+  }

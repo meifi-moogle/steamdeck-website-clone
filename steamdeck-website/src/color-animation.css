@@ -1,0 +1,46 @@
+@keyframes color-animation {
+    0% {
+        background: #1A9FFF;
+        fill: #1A9FFF;
+    }
+    10% {
+        background: #ef3838;
+        fill: #ef3838;
+    }
+    20% {
+        background: #6d5cf7;
+        fill: #6d5cf7;
+    }
+    30% {
+        background: #1A9FFF;
+        fill: #1A9FFF;
+    }
+    40% {
+        background: #4dc3a3;
+        fill: #4dc3a3;
+    }
+    50% {
+        background: #ef3838;
+        fill: #ef3838;
+    }
+    60% {
+        background: #6d5cf7;
+        fill: #6d5cf7;
+    }
+    70% {
+        background: #1A9FFF;
+        fill: #1A9FFF;
+    }
+    80% {
+        background: #ef3838;
+        fill: #ef3838;
+    }
+    90% {
+        background: #4dc3a3;
+        fill: #4dc3a3;
+    }
+    100% {
+        background: #1A9FFF;
+        fill: #1A9FFF;
+    }
+}

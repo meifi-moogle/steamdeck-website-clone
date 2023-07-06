@@ -1,0 +1,29 @@
+  .media-scroller--with-groups {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+  
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    scroll-behavior: smooth;
+  }
+  
+  .media-group {
+    display: grid;
+    /* gap: 1rem; */
+    grid-auto-flow: column;
+    grid-template-rows: min-content;
+  }
+  
+  .snaps-inline {
+    scroll-snap-type: inline mandatory;
+    /* scroll-padding-inline: 1rem; */
+  
+  }
+  
+  .snaps-inline>* {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
+
+  

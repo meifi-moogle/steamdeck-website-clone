@@ -1,0 +1,34 @@
+.btn {
+    /* margin-inline: .250rem; */
+    padding: 6px 16px;
+    border-style: none;
+    border-radius: 16px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn:focus {
+    background-color: silver;
+}
+
+.btn-still {
+    background-color: #1A9FFF;
+    animation: color-animation 48s ease infinite;
+}
+
+.btn-big {
+    color: white;
+    /* color: #b8bcbf; */
+    font-size: 1.050rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.btn-big:hover {
+    color: white;
+    background-color: #1A9FFF;
+    animation: color-animation 24s ease infinite;
+}

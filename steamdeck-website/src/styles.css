@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 html {
   scroll-behavior: smooth;
 }
@@ -15,159 +17,29 @@ html {
 * {
   margin: 0;
   /* font: inherit; */
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
+  font-family: 'Noto Sans', sans-serif;
 }
 
-nav {
-  background-color: var(--color-black);
-  color: white;
+h1, h2, h3, .top-content p, img, .margin-inline {
+  /* margin-inline: 5rem; */
+}
+
+
+.flex-group {
   display: flex;
-  justify-content: space-between;
-
-  position: sticky;
-  top: 0;
+  align-items: center;
+  /* gap: .5rem; */
 }
 
-nav ul {
-  display: flex;
-  gap: 2rem;
-}
 
-.top-content {
-  background-image: url('./deck-img-vid/software_hero_no_bg.png'), url('./deck-img-vid/software_hero_bg.jpg');
-  background-size: cover;
-  background-position: center;
-  /* object-fit: cover; */
-  background-repeat: no-repeat;
 
-  height: 33rem;
-}
 
-.left-side-text p {
+
+/* .left-side-text p {
   width: 35rem;
-}
+} */
 
-.feature-stardew {
-  background-image: url('./deck-img-vid/software_playing_stardew.jpeg');
-  width: 100%;
-  height: 120vh;
-  background-size: cover;
-  background-position: center;
-  object-fit: cover;
-  background-repeat: no-repeat;
-}
-
-.feature-baldurs-gate {
-  width: 100%;
-  height: auto;
-  background-repeat: no-repeat;
-
-  overflow: hidden;
-}
-
-.features-list-section {
-  background-color: var(--color-black);
-  color: white;
-}
-
-.features-list-section img {
-  width: 7rem;
-}
-
-.features-list-section .section-header {
-  display: flex;
-  justify-content: space-between;
-}
-
-.features-list-section .features {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 3rem;
-}
-
-
-.steam-library-section {
-  display: flex;
-}
-
-.steam-library-section img {
-  width: 50rem;
-  height: auto;
-}
-
-
-
-.slide-presentation {
-  background-color: var(--color-black);
-  color: white;
-  /* display: flex; */
-}
-
-.slide-presentation img {
-  width: 40rem;
-  height: auto;
-}
-
-.slide-text {
-  width: 40rem;
-}
-
-.slide-links {
-  display: flex;
-  gap: 5rem;
-  justify-content: center;
-}
-
-.slide-presentation ul {
-  list-style: none;
-}
-
-.slide-presentation li {
-  background-color: pink;
-  padding: 8px 16px;
-}
-
-
-
-
-.media-scroller--with-groups {
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: 100%;
-
-  overflow-x: auto;
-  overscroll-behavior-inline: contain;
-  scroll-behavior: smooth;
-}
-
-.media-group {
-  display: grid;
-  gap: 1rem;
-  grid-auto-flow: column;
-  grid-template-rows: min-content;
-}
-
-.snaps-inline {
-  scroll-snap-type: inline mandatory;
-  /* scroll-padding-inline: 1rem; */
-
-}
-
-.snaps-inline>* {
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
-}
-
-.feature-ni-no-kuni {
-  width: 100%;
-  height: auto;
-  background-size: cover;
-  background-position: center;
-  object-fit: cover;
-  background-repeat: no-repeat;
-
-  overflow: hidden;
-}
 
 .operating-system {
   color: white;
@@ -178,45 +50,6 @@ nav ul {
   color: white;
   background-color: hotpink;
 }
-
-
-
-
-
-footer {
-  color: white;
-  background-color: black;
-}
-
-
-footer img {
-  width: 13rem;
-}
-
-/* .main-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.footer-links-container {
-  display: flex;
-} */
-
-
-.main-footer {
-  display: flex;
-  justify-content: space-between;
-}
-.main-footer svg {
-  margin-bottom: 1.5rem;
-}
-.footer-links-container {
-  display: flex;
-  gap: 3rem;
-}
-
-
 
 
 ul {
