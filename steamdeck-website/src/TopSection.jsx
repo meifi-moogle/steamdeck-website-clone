@@ -11,7 +11,6 @@ function TopSection() {
                     <p>Home is where you’ll find all the things you need—dive back into a game whether you were playing it on Steam Deck™ or your PC, see what’s new in your library and the store, as well as what your friends are up to.</p>
                 </div>
             </section>
-
         </>
     )
 }

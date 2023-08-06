@@ -21,10 +21,18 @@
   row-gap: 3rem;
 }
 
+.feature h3 {
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+
 .feature p {
   width: 23rem;
   margin-top: .8rem;
 }
+
+
+
 
 
 

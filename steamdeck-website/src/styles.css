@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+  --color-black: #1b1b1b;
+}
 
 html {
   scroll-behavior: smooth;
-}
-
-:root {
-  --color-black: #1b1b1b;
 }
 
 *,
@@ -17,30 +16,52 @@ html {
 * {
   margin: 0;
   /* font: inherit; */
-  /* font-family: sans-serif; */
   font-family: 'Noto Sans', sans-serif;
 }
-
-h1, h2, h3, .top-content p, img, .margin-inline {
-  /* margin-inline: 5rem; */
-}
-
 
 .flex-group {
   display: flex;
   align-items: center;
-  /* gap: .5rem; */
 }
 
 
+.section-title {
+  font-size: 3.4rem;
+  font-weight: 900;
+  width: 50rem;
+}
+
+p {
+  line-height: 1.6rem;
+}
+
+.font-bold, p, nav, .top-content, .btn {
+  font-weight: 600;
+}
+h1, h2, p {
+  width: 30rem;
+}
+h1, h2 {
+  font-size:3.4rem;
+  font-weight: 900;
+}
 
 
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
 
-/* .left-side-text p {
-  width: 35rem;
+/* h1, h2, h3, .top-content p, img, .margin-inline {
+  padding-inline: 5rem;
 } */
 
 
+
+/* Sections that did not take separate CSS files  */
 .operating-system {
   color: white;
   background-color: var(--color-black);
@@ -52,10 +73,3 @@ h1, h2, h3, .top-content p, img, .margin-inline {
 }
 
 
-ul {
-  list-style: none;
-}
-a {
-  text-decoration: none;
-  color: white;
-}

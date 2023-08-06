@@ -24,8 +24,6 @@ import "./backgrounds.css"
 import "./buttons.css"
 
 
-
-
 function App() {
 
   return (

@@ -10,15 +10,12 @@
   
   .media-group {
     display: grid;
-    /* gap: 1rem; */
     grid-auto-flow: column;
     grid-template-rows: min-content;
   }
   
   .snaps-inline {
     scroll-snap-type: inline mandatory;
-    /* scroll-padding-inline: 1rem; */
-  
   }
   
   .snaps-inline>* {

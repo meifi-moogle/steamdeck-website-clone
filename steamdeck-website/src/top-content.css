@@ -1,7 +1,18 @@
 .top-content {
     padding-bottom: 5.5rem;
+    padding-inline: 5rem;
+}
+
+.top-content h1 {
+    color: #1b1b1b;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem; 
 }
 
 .top-paragraph {
     margin-bottom: 1.5rem;
+}
+.top-content p {
+    color: #3d4450;
+    font-size: 1.05rem;
 }
