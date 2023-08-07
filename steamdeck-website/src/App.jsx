@@ -19,7 +19,6 @@ import "./get-deck.css"
 import "./footer.css"
 
 import "./color-animation.css"
-import "./typography.css"
 import "./backgrounds.css"
 import "./buttons.css"
 
