@@ -19,6 +19,16 @@ html {
   font-family: 'Noto Sans', sans-serif;
 }
 
+ footer, section:not(.feature-baldurs-gate, .feature-ni-no-kuni) {
+  padding-inline: 5rem;
+}
+
+@media (width < 1000px) {
+  section:not(.feature-baldurs-gate, .feature-ni-no-kuni) {
+    padding-inline: 3rem;
+  }
+}
+
 .flex-group {
   display: flex;
   align-items: center;
@@ -26,7 +36,7 @@ html {
 
 
 .section-title {
-  font-size: 3.4rem;
+  /* font-size: 3.4rem; */
   font-weight: 900;
   width: 50rem;
 }
@@ -42,7 +52,7 @@ h1, h2, p {
   width: 30rem;
 }
 h1, h2 {
-  font-size:3.4rem;
+  font-size: 3.4rem;
   font-weight: 900;
   line-height: 4.2rem;
 }

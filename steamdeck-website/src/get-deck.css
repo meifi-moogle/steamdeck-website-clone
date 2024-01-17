@@ -3,7 +3,6 @@
 }
 
 .buy-steamdeck {
-    padding-inline: 5rem;
     padding-block: 6rem;
 }
 
@@ -17,10 +16,23 @@
     margin-bottom: .8rem;
 }
 
+@media (width < 800px) {
+    .inline-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5rem;
+    }
+}
+
 .buy-steamdeck p {
     color: black;
     font-size: 1.4rem;
     font-weight: 700;
+}
+
+@media (width < 700px) {
+    .inline-container { font-size: 2rem; }
+    .buy-steamdeck p { font-size: 1.1rem; }
 }
 
 .buy-steamdeck button {

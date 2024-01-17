@@ -1,7 +1,8 @@
 .steam-library-section {
   display: flex;
   justify-content: center;
-  padding: 5rem;
+  /* padding: 5rem; */
+  padding-block: 5rem;
 }
 
 .steam-library-section img {
@@ -11,9 +12,35 @@
 
 .text-container h1 {
   margin-bottom: 1.5rem;
-  font-size: 3.5rem;
+  /* font-size: 3.5rem; */
 }
 
 .text-container p {
   width: 24rem;
 }
+
+@media (width < 1300px) {
+  .steam-library-section img { width: 40rem; }
+}
+
+@media (width < 1200px) {
+  .text-container h1 { font-size: 1.8rem; margin-bottom: 0;}
+  .steam-library-section img { width: 35rem; }
+}
+
+@media (width < 1050px) {
+  .text-container h1 { font-size: 1.9rem; margin-bottom: 0;}
+
+  .steam-library-section {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+@media (width < 650px) {
+  .text-container h1 { font-size: 1.5rem; margin-bottom: 0;}
+  .steam-library-section img { width: 25rem; }
+}
+
+
+

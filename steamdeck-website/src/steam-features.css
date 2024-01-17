@@ -1,7 +1,9 @@
 .features-list-section {
   background-color: var(--color-black);
   color: white;
-  padding: 5rem 5rem 8rem 5rem;
+  /* padding: 5rem 5rem 8rem 5rem; */
+  padding-top: 5rem;
+  padding-bottom: 8rem;
 }
 
 .section-header {
@@ -31,6 +33,18 @@
   margin-top: .8rem;
 }
 
+
+
+
+@media (width < 1300px) {
+  .features { grid-template-columns: 1fr 1fr; }
+}
+
+@media (width < 1000px) {
+  .features { grid-template-columns: 1fr; }
+  .feature h3 { font-size: 1.3rem; }
+  .feature p { font-size: .9rem; }
+}
 
 
 
