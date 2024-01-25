@@ -53,6 +53,7 @@ h1, h2, p {
 }
 h1, h2 {
   font-size: 3.4rem;
+  font-size: clamp(1rem, 1rem + 1vw ,2.2rem);
   font-weight: 900;
   line-height: 4.2rem;
 }
@@ -66,12 +67,6 @@ a {
   color: white;
 }
 
-/* h1, h2, h3, .top-content p, img, .margin-inline {
-  padding-inline: 5rem;
-} */
-
-
-
 /* Sections that did not take separate CSS files  */
 .operating-system {
   color: white;
@@ -81,6 +76,13 @@ a {
 .buy-steamdeck {
   color: white;
   background-color: hotpink;
+}
+
+/* Remove the smooth scroll effet if unwanted */
+@media (prefers-reduced-motion) {
+  :has(:target) {
+    scroll-behavior: auto;
+  }
 }
 
 
